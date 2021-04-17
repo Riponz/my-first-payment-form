@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.container{
+    margin: 20px;
+    padding: 5px 28px 15px 20px;
+    background-color: rgb(196, 186, 186);
+    border-radius: 12px;
+}
+
+.container h1{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select,textarea
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    border: thistle solid;
+}
+fieldset{
+    background-color: palegoldenrod;
+    border-radius: 12px;
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    color: pink;
+    font-weight: bolder;
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover
+{
+    color: plum;
+    background-color: purple;
+}
+
+h3{
+    font-size: 20px;
+}

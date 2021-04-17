@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PAYMENTS</h1>
+        <hr>
+        <H3>User Details</H3>
+        <p>
+            Name:
+            <input type="text" required name="name" placeholder="Jason Smith">
+        </p>
+        <p>
+            <fieldset>
+            <legend>Gender</legend>
+            Male<input type="radio" value="Male">
+            Female<input type="radio" value="Female">
+        </fieldset>  
+        </p>
+        <p>
+            Address: <br>
+           <textarea name="address" id="address" cols="100" rows="10"></textarea>
+        </p>
+        <p>
+            Email:
+            <input type="email" placeholder="abcd1234@gmail.com">
+        </p>
+        <p>
+            Pincode:
+            <input type="number" required name="pin" placeholder="123456">
+        </p>
+
+        <h3>Card Details</h3>
+        <p>
+            Card Number:
+            <input type="number" required placeholder="1111-2222-3333-4444">
+        </p>
+        <p>
+            Card Type:
+            <select name="card_type" id="card_type">
+                <option value="Select">Select Card Type</option>
+                <option value="MasterCard">MasterCard</option>   
+                <option value="Visa">Visa</option>   
+                <option value="Rupay">Rupay</option>   
+            </select>
+        </p>
+        <p>
+            Expiry Date:
+            <input type="date" name="expiry_date" id="expiry">
+        </p>
+        <p>
+            CVV:
+            <input type="number" required placeholder="123">
+        </p>
+        <input type="submit" name="submit" id="paynow" value="Pay Now">
+    </div>
+    
+</body>
+</html>
